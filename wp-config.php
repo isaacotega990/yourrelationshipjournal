@@ -13,7 +13,7 @@
  * * Database table prefix
  * * ABSPATH
  *
- * @link https://wordpress.org/documentation/article/editing-wp-config-php/
+ * @link https://wordpress.org/support/article/editing-wp-config-php/
  *
  * @package WordPress
  */
@@ -29,10 +29,10 @@ define( 'DB_USER', 'o8yiup6zfrhq4a36' );
 define( 'DB_PASSWORD', 'x7ezqxyi614stb8d' );
 
 /** Database hostname */
-define( 'DB_HOST', 'tvcpw8tpu4jvgnnq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com' );
+define( 'DB_HOST', 'elementary-asparagus-xu82ytbncnbv4ierx3tdq0wm.herokudns.com' );
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define( 'AUTH_KEY',         'lh1twaybe0jifabsndcgiv9lgvcyn8fdldhceudgr9x63figjjtq98lcpqu0alz5' );
+define( 'SECURE_AUTH_KEY',  'vbkodbzt2cgzfkylevekg4cbd3lz1dhsqff42zymsg24szxirqid8uwztdgihwr1' );
+define( 'LOGGED_IN_KEY',    'qhyhoji4aw0k0cfzhqzn0p0huoqhq0irkftv6bdflqwxlucvqxaomls73bnzvgwh' );
+define( 'NONCE_KEY',        'ofzsk7fda36ftbkesrllxmdrgkiy56jvx9hlaemo6v6zyf7nmmk0hwfjxwlf7mcb' );
+define( 'AUTH_SALT',        'h9lpa3hapifpseo0nknthr3ga0uwqudqkdnkk5ed07vxplbl55od6gtx3zailmp8' );
+define( 'SECURE_AUTH_SALT', 'gatcoj317kbcicqrgr1vhwn936xjvatym4tvawn8kguqke1ailywzpiu5kgqsivy' );
+define( 'LOGGED_IN_SALT',   'oemonoty1van1oyp1vtslj05mtykeguqndavxra3tyyyacs2giyyd18udnjytw56' );
+define( 'NONCE_SALT',       'juc1vwnmchuujuizxsjv1tevzjuf7p5lt2h9rls02tlptomxoppzmhz2bv6kcuii' );
 
 /**#@-*/
 
@@ -65,7 +65,7 @@ define( 'NONCE_SALT',       'put your unique phrase here' );
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wp_';
+$table_prefix = 'wpxl_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -77,7 +77,7 @@ $table_prefix = 'wp_';
  * For information on other constants that can be used for debugging,
  * visit the documentation.
  *
- * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
+ * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
 
